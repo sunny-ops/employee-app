@@ -79,7 +79,6 @@ function EmployeeComponent() {
       if (id) {
         updateEmployee(id, employee)
           .then((response) => {
-            console.log("hehe");
             console.log(response.data);
             navigator("/employees");
           })
